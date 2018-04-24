@@ -1,0 +1,43 @@
+.tumbler {
+    display:inline-block;
+    float:left;
+    margin:0px;
+    padding:0px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 32px;
+    height: 32px;
+}
+
+#slot-machine {
+    padding: 0px;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:0.75em;
+}
+
+#slot-help-icon {
+    float: right;
+}
+
+#slot-help {
+    position: fixed;
+    top: 42px;
+    left: 112px;
+    padding: 6px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+    border-radius: 5px;
+    background-color: lemonchiffon;
+    z-index: 1;
+}
+
+#tblr2 {
+    border-right: 1px solid black;
+}
+
+.hidden {
+    display: none;
+}
